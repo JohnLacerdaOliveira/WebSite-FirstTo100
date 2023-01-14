@@ -1,8 +1,7 @@
 "use strict";
 
-//? When game ends transparency doesen't reset
 let activePlayer, isPlaying, currentScore, scores;
-
+let winner = 0;
 //DOM elements selection...
 const player0EL = document.querySelector(".player--0");
 const player1EL = document.querySelector(".player--1");
@@ -29,7 +28,7 @@ function startGame() {
   currentScore1EL.textContent = 0;
   diceEL.classList.add("hidden");
   document
-    .querySelector(`.player--${activePlayer}`)
+    .querySelector(`.player--${winner}`)
     .classList.remove("player--winner");
   document
     .querySelector(`.player--${activePlayer}`)
@@ -58,7 +57,7 @@ btnRoll.addEventListener("click", function () {
 
     //2. display dice
     diceEL.classList.remove("hidden");
-    diceEL.src = `dice-${diceRoll}.png`;
+    diceEL.src = `resources/dice-${diceRoll}.png`;
 
     //3. check for  rolled 1: If true switch to next player
     if (diceRoll !== 1) {
@@ -82,7 +81,9 @@ btnHold.addEventListener("click", function () {
       scores[activePlayer];
 
     //2. check if score > 100...
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 10) {
+      winner = activePlayer;
+      console.log(winner);
       //3. finish game...
       isPlaying = false;
       document
