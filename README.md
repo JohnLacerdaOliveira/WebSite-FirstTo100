@@ -24,8 +24,8 @@ Simple web based game intended as an personal challenge in the initall stages of
 
 
 ## Screenshots
-![Game ScreenShot 1](./ScreenShot1)
-![Game ScreenShot 2](./ScreenShot1)
+![Game ScreenShot 1](./ScreenShot1.png)
+![Game ScreenShot 2](./ScreenShot1.png)
 ![GameLogic Diagram](./pig-game-flowchart.png)
 
 ## Setup
