@@ -15,7 +15,7 @@
 
 
 ## General Information
-Simple web based game intended as an personal challenge in the initall stages of my web development journey.  
+Simple web based game intended as a personal challenge in the initall stages of my web development journey.  
 
 ## Technologies Used
 - HTML
