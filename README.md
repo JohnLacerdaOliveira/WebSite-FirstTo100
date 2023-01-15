@@ -26,7 +26,7 @@ Simple web based game intended as an personal challenge in the initall stages of
 ## Screenshots
 ![Game ScreenShot 1](./ScreenShot1.png)
 ![Game ScreenShot 2](./ScreenShot2.png)
-![GameLogic Diagram](./pig-game-flowchart.png)
+![GameLogic Diagram](./Flowchart.png)
 
 ## Setup
 Given that the project is not yet hosted on a server you'll have to download this repository's contents to your computer and open the file index.HTML with the browser of your choice. 
