@@ -2,6 +2,8 @@
 
 let activePlayer, isPlaying, currentScore, scores;
 let winner = 0;
+const winningScore = 100;
+
 //DOM elements selection...
 const player0EL = document.querySelector(".player--0");
 const player1EL = document.querySelector(".player--1");
@@ -81,7 +83,7 @@ btnHold.addEventListener("click", function () {
       scores[activePlayer];
 
     //2. check if score > 100...
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= winningScore) {
       winner = activePlayer;
       console.log(winner);
       //3. finish game...
