@@ -2,7 +2,7 @@
 
 > Turn based 2 person dice game. Roll the dice as many times as you want and keep adding them to your score to be the first to get to 100 but don't get greedy... Rolling a 1 will reset your partial score back to 0 and give the turn to your oponent. 
 
-> Live demo ==> working on it, still not live at the moment.
+> Live demo  ==>  Working on it, still not live at the moment.
 
 ## Table of Contents
 * [General Info](#general-information)
