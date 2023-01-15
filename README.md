@@ -37,11 +37,10 @@ Project is fully functioning and finished.
 
 
 ## Room for Improvement
-Fuunctionality wise the game will always be what it is, regarding the UI/UX it could always be  diferent and more refined.
+Functionality wise the game will always be what it is, regarding the UI/UX it could always be better and more refined.
 
 Room for improvement:
 - Better UI/UX
-
 
 ## Acknowledgements
 - This project was based on [this tutorial]shorturl.at/dG289.
