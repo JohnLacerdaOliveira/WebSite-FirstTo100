@@ -17,6 +17,7 @@
 ## General Information
 Simple web based game intended as a personal challenge in the initall stages of my web development journey.  
 
+
 ## Technologies Used
 - HTML
 - CSS
@@ -39,9 +40,7 @@ Project is fully functioning and finished.
 ## Room for Improvement
 Functionality wise the game will always be what it is, regarding the UI/UX it could always be better and more refined.
 
-Room for improvement:
-- Better UI/UX
 
 ## Acknowledgements
-- This project was based on [this tutorial]shorturl.at/dG289.
+- This project was based on a challenge found on [this course](shorturl.at/dG289).
 - Many thanks to Jonas Schmedtmann and it's great teaching
